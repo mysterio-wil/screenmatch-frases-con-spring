@@ -1,5 +1,15 @@
 # CHANGELOG
 
+## [1.0.1] - 2024-11-24
+
+### Added
+- Se creó el paquete 'model' y la clase 'Frase' con los atributos 'id', 'titulo', 'frase', 'personaje', y 'poster'.
+- Se implementó el paquete 'dto' y se creó el record 'FraseDTO' con los campos 'titulo', 'frase', 'personaje', y 'poster'.
+- Se añadió el paquete 'repository' y la interfaz 'FraseRepository' con un método personalizado para obtener una frase aleatoria utilizando la función 'RANDOM' de la base de datos.
+- Se generaron los getters y setters de la clase 'Frase' para permitir el acceso y modificación de los atributos.
+- Se creó el paquete 'service' y se implementó la clase 'FraseService' que utiliza el repositorio para obtener una frase aleatoria y devolverla como 'FraseDTO'.
+- Se añadió el paquete 'controller' y la clase 'FraseController' con el endpoint 'GET /series/frases' para obtener una frase aleatoria.
+
 ## [1.0.0] - 2024-11-23
 
 ### Added
