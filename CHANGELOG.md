@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## [2.0.0] - 2024-11-24
+
+### Added
+- Se creó el paquete 'config' y la clase 'CorsConfiguration'.
+- Se configuró CORS para permitir solicitudes desde 'http://127.0.0.1:5500'.
+- Se habilitaron los métodos HTTP: 'GET', 'POST', 'PUT', 'DELETE', 'OPTIONS', 'HEAD', 'TRACE' y 'CONNECT' en las solicitudes CORS.
+
 ## [1.0.1] - 2024-11-24
 
 ### Added
